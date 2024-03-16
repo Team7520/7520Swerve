@@ -2,31 +2,31 @@
   "version": 1.0,
   "startingPose": {
     "position": {
-      "x": 1.3763132980811417,
-      "y": 5.569261320340823
+      "x": 0.8539869673657066,
+      "y": 4.508504473180682
     },
-    "rotation": 180.0
+    "rotation": -59.34933204294715
   },
   "command": {
     "type": "sequential",
     "data": {
       "commands": [
         {
-          "type": "path",
+          "type": "named",
           "data": {
-            "pathName": "Mid to amp"
+            "name": "log"
           }
         },
         {
-          "type": "wait",
+          "type": "named",
           "data": {
-            "waitTime": 2.0
+            "name": "shoot"
           }
         },
         {
           "type": "path",
           "data": {
-            "pathName": "Amp to mid note"
+            "pathName": "Safe Auto"
           }
         }
       ]
